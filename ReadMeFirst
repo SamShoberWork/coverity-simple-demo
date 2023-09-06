@@ -1,0 +1,10 @@
+some changes must be made before you can use this demo project 
+1) The jenkins file needs to be updated to set the environment variables - dont use 'https://coverity.chuckaude.com:8443' change it to be a different coverity server. update the Project name to be "SLS-hello-java"
+2) the /.github/workflows/coverity-simple.yml requries updating 
+    a) add the following environment variables as github secrets to your github project 
+              COVERITY_CHECKERS: --webapp-security
+              COVERITY_URL: ${{ secrets.COVERITY_URL }}
+              COV_USER: ${{ secrets.COVERITY_USER }}
+              COVERITY_PASSPHRASE: ${{ secrets.COVERITY_PASSPHRASE }}
+    b) do a test build or two
+    c) do a test scan or two
