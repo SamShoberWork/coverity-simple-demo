@@ -2,8 +2,9 @@ pipeline {
 	agent any
 
 	environment {
-		CONNECT = 'https://coverity.chuckaude.com:8443'
-		PROJECT = 'hello-java'
+		// CONNECT = 'https://coverity.chuckaude.com:8443'
+		CONNECT = 'https://testing.coverity.synopsys.com'
+		PROJECT = 'SLS-hello-java'
 	}
 
 	tools {
