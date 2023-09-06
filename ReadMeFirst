@@ -8,3 +8,5 @@ some changes must be made before you can use this demo project
               COVERITY_PASSPHRASE: ${{ secrets.COVERITY_PASSPHRASE }}
     b) do a test build or two
     c) do a test scan or two
+3) Update the github project to run Actions
+4) configure a jenkins server to build the project
