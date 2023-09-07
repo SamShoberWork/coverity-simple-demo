@@ -1,4 +1,8 @@
-some changes must be made before you can use this demo project 
+2023-09-07 - scnas would not run using a local runner so updated to be a public facing project. i expect the public runner will fail becuase it doenst have access to coverity. 
+need to figure out how to get local runner to talk to github. 
+
+
+2023-09-03  some changes must be made before you can use this demo project 
 1) DONE IN MAIN BRANCH - The jenkins file needs to be updated:
     a) set the environment variables - dont use 'https://coverity.chuckaude.com:8443'  - updated to 'https://testing.coverity.synopsys.com'
     b) update the Project name to be 'SLS-hello-java'  from  'hello-java' 
